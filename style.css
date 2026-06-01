@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #e4e9ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+}
+
+.global-container {
+  width: 70vw;
+  height: 85vh;
+  background-color: #f5f7f6;
+  border: #f2f6f5 solid 1px;
+  box-shadow: 0px 0px 12px #f5f7f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-container {
+  width: 86%;
+  height: 93%;
+}
+
+header {
+  width: 100%;
+  height: 47px;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+}
+
+.left-nav-segment > ul > li {
+  list-style-type: none;
+  float: left;
+  margin: 1px 15px;
+}
+
+.mr-logo {
+  position: relative;
+  width: 37px;
+  height: 37px;
+  background-color: #f7df1d;
+  border: none;
+  border-radius: 6px;
+}
+
+.mr-logo > p {
+  position: absolute;
+  bottom: 0;
+  right: 3px;
+  font-weight: 600;
+}
+
+.left-nav-text-content {
+  height: 37px;
+  display: flex;
+  align-items: center;
+  font-size: 80%;
+  color: #4f5150;
+  font-weight: 440;
+}
+
+ul li:last-child .left-nav-text-content {
+  color: black;
+  font-weight: 600;
+}
+
+.right-nav-segment > ul > li {
+  list-style-type: none;
+  float: right;
+  margin: 1px 15px;
+}
+
+.right-nav-text-content {
+  height: 40px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #949695 solid 1px;
+  border-radius: 7px;
+  font-family: Poppins, sans-serif;
+  font-size: small;
+  font-weight: 440;
+  color: #949695;
+  margin-right: 40px;
+}
+
+.right-nav-img-container {
+  width: 37px;
+  height: 37px;
+  border: white solid 1px;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: -20px;
+  left: -30px;
+  box-shadow: -7px 7px 10px #dadce1;
+}
+
+#gmail-img {
+  width: 70%;
+  height: 70%;
+}
+
+#facebook-img {
+  width: 80%;
+  height: 80%;
+}
+
+#content-heading {
+  height: 45px;
+  margin: 30px auto 15px auto;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+#content-description {
+  width: 30%;
+  height: 50px;
+  margin: 20px auto;
+  text-align: center;
+  color: #878988;
+  font-family: Poppins, sans-serif;
+  font-size: 80%;
+  border: black solid 1px;
+}
