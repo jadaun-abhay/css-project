@@ -15,7 +15,7 @@ body {
 
 .global-container {
   width: 70vw;
-  height: 85vh;
+  height: 90vh;
   background-color: #f5f7f6;
   border: #f2f6f5 solid 1px;
   box-shadow: 0px 0px 12px #f5f7f6;
@@ -132,10 +132,132 @@ ul li:last-child .left-nav-text-content {
 #content-description {
   width: 30%;
   height: 50px;
-  margin: 20px auto;
+  margin: 20px auto 8px auto;
   text-align: center;
   color: #878988;
   font-family: Poppins, sans-serif;
   font-size: 80%;
+}
+
+.search-container {
+  width: 41%;
+  height: 47px;
+  margin: 3px auto;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-data-container {
+  width: 97%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.vector-dropdown-box {
+  width: 18%;
+  height: 78%;
+  border: #c0c0c0 solid 1px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 78%;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  box-shadow: 0px 0px 2px #c0c0c0;
+}
+
+.search-data-container > p {
+  width: 65%;
+  height: 78%;
+  display: flex;
+  align-items: center;
+  color: #929292;
+  font-size: 71%;
+  font-family: Poppins, sans-serif;
+}
+
+.search-data-container > img {
+  width: 22px;
+  height: 23px;
+  opacity: 0.9;
+}
+
+.article-navigation {
+  width: 95%;
+  height: 47px;
+  margin: 20px auto 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Poppins, sans-serif;
+}
+
+.article-left-navigation {
+  display: flex;
+  gap: 25px;
+  font-weight: 500;
+}
+
+.article-left-navigation > p:first-child {
+  width: 55px;
+  height: fit-content;
+  position: relative;
+}
+
+.article-left-navigation > p {
+  width: fit-content;
+  height: fit-content;
+}
+
+#red-dot {
+  display: block;
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  background-color: #d8410c;
+  border-radius: 50px;
+}
+
+.article-right-navigation {
+  display: flex;
+  padding-right: 24px;
+  gap: 27px;
+}
+
+.article-right-navigation > img {
+  width: 22px;
+  height: 23px;
+}
+
+.card-container {
+  width: 94%;
+  height: 320px;
+  margin: 7px auto 20px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.card {
+  width: 31%;
+  height: 100%;
+  background-color: #feffff;
+  border: none;
+  border-radius: 15px;
+}
+
+footer {
+  width: 95%;
+  height: 65px;
+  margin: 35px auto;
   border: black solid 1px;
 }
