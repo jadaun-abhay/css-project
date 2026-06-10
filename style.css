@@ -337,7 +337,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: black solid 1px;
 }
 
 .collectibles {
@@ -391,5 +390,38 @@ footer {
   height: 40px;
   display: flex;
   align-items: flex-end;
-  border: black solid 1px;
+  gap: 10px;
+}
+
+.navigator > p {
+  color: #919296;
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+}
+
+.inter-navigator {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.inter-navigator > img {
+  width: 17px;
+  height: 17px;
+  padding: 4px;
+  border: none;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.inter-navigator > p {
+  width: 20px;
+  height: 26px;
+  text-align: center;
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+  color: #7d7f86;
+  border: #7d7f86 solid 1px;
+  border-radius: 5px;
+  background-color: white;
 }
